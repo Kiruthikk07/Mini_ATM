@@ -49,7 +49,7 @@ public class Mini_ATM {
                         break;
                         
                     case 4:
-                        System.out.println("---------------------------------\nWelcome to Kiruthik's mini ATM");
+                        System.out.println("---------------------------------\nWelcome to Kiruthik's Mini ATM");
                         System.out.println("Available balance = "+balance);
                         System.out.println("Amount taken = "+withdraw);
                         System.out.println("Amount deposited = "+deposit);
@@ -63,10 +63,10 @@ public class Mini_ATM {
                         default:
                         	System.out.println("Invalid input");
         	}
-        }
+           }
       }
         else {
         	System.out.println("Wrong Password ! ! !");
         }
-	}
+    }
 }
